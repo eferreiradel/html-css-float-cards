@@ -13,6 +13,9 @@
 .address { 
     color: var(--azure);
 }
+ h3 {
+    text-transform: uppercase;
+ }
 
 
 main {
@@ -20,19 +23,23 @@ main {
 }
 
 #header {
+    margin: 5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: aquamarine;
 }
 
 header h1:first-child {
-    background-color: aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 1px 1px rgb(22, 22, 22);
+    color: #f64468;
+    
 }
 
 #sub-title {
+    margin: auto;
+    max-width: 70rem;
     display: flex;
-    background-color: bisque;
     text-align: center;
 }
 
@@ -55,6 +62,7 @@ header h1:first-child {
 .--grid_item {
     display: flex;
     background-color: black;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .--grid_item_content {
