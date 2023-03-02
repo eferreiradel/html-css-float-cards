@@ -1,0 +1,22 @@
+::before {
+    /* Color Palette */
+    --azure: #26a3eb;
+    --pink: #f55e5e;
+}
+
+#header {
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: aquamarine;
+}
+
+header h1:first-child {
+    background-color: aqua;
+}
+
+#sub-title {
+    display: flex;
+    background-color: bisque;
+    text-align: center;
+}
