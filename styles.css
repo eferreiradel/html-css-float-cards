@@ -14,7 +14,6 @@ header {
     justify-content: center;
     margin: 2em auto;
     text-align: center;
-    background-color: lightyellow;
 }
 .container {
     overflow: auto;
@@ -43,4 +42,8 @@ header h1:first-child {
     height: 100%;
     float: left;
     margin-right: 1em;
+}
 
+h4 {
+    margin-top: 0.5em;
+}
