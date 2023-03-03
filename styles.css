@@ -1,0 +1,46 @@
+::root {
+
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+header {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em auto;
+    text-align: center;
+    background-color: lightyellow;
+}
+.container {
+    overflow: auto;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color:
+}
+header h1:first-child {
+    color: royalblue;
+    margin-bottom: 1em;
+}
+.address {
+    color: lightskyblue;
+    font-size:small;
+}
+.card {
+    float: left;
+    height: 5rem;
+    width: 313px;
+    background-color: black;
+    color: white;
+    border: 1px solid beige;
+    margin: 10px;
+}
+.card img {
+    height: 100%;
+    float: left;
+    margin-right: 1em;
+
