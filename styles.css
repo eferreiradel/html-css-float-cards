@@ -7,6 +7,10 @@
     margin: 0%;
 }
 
+body {
+    background-color: rgb(32, 32, 32);
+}
+
 header {
     padding: 1em;
     display: flex;
@@ -14,6 +18,8 @@ header {
     justify-content: center;
     margin: 2em auto;
     text-align: center;
+    max-width: 1000px;
+    color: white;
 }
 .container {
     overflow: auto;
@@ -22,7 +28,7 @@ header {
     background-color:
 }
 header h1:first-child {
-    color: royalblue;
+    color:  gold;
     margin-bottom: 1em;
 }
 .address {
@@ -37,6 +43,7 @@ header h1:first-child {
     color: white;
     border: 1px solid beige;
     margin: 10px;
+    border: 1px solid goldenrod;
 }
 .card img {
     height: 100%;
